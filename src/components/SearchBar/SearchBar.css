@@ -1,0 +1,29 @@
+.SearchBar {
+	width: 90%;
+}
+
+.serach-bar-container {
+	background-color: #70566D;
+	padding: 2em 0;
+}
+
+.serach-bar-container input, .serach-bar-container button {
+	font-size: 1em;
+	padding: 0.2em 0.5em;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.serach-bar-container input:focus {
+	outline: none;
+}
+
+.serach-bar-container button {
+	background-color: transparent;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.serach-bar-container i {
+	font-size: 0.9em;
+}

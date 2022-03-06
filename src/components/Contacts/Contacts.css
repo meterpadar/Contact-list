@@ -1,0 +1,326 @@
+.reset-search {
+	font-size: 1.1em;
+	font-weight: 600;
+	background-color: transparent;
+	border: none;
+	color: #4B2B4E;
+	cursor: pointer;
+	margin-top: 1em;
+}
+
+.reset-search:hover {
+	text-decoration: underline;
+	color: #70566D;
+}
+
+.edit-contact-alert {
+	text-align: center;
+	font-size: 1.1em;
+	color: #FF0000;
+	margin-top: 0;
+}
+
+.contacts-container {
+	padding: 0 3em;
+	list-style: none;
+	margin-bottom: 2em;
+}
+
+.contact-container {
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+.contact-main-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-main-info span {
+	padding: 0.2em 2em;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #4B2B4E;
+	width: 30%;
+	text-align: center;
+	border-style: solid;
+}
+
+.contact-buttons-container {
+	width: 70%;
+	text-align: right;
+}
+
+.contact-buttons-container button {
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+	background-color: #85B87D;
+	border: solid;
+	color: #ffffff;
+	margin-right: 2em;
+	padding: 0.3em;
+	width: 20%;
+}
+
+.contact-buttons-container button:nth-child(3) {
+	margin-right: 0;
+}
+
+.contact-buttons-container button:hover {
+	background-color: #648C5D;
+}
+
+.contact-buttons-container .yes-button {
+	background-color: #E72323;
+	width: 10%;
+	margin-right: 0;
+}
+
+.contact-buttons-container .yes-button:hover {
+	background-color: #C40B0B;
+}
+
+.contact-buttons-container .no-button {
+	width: 10%;
+	margin-right: 0;
+}
+
+.edit-contact-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 1em auto;
+}
+
+.edit-contact-container input {
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	padding: 0.4em 0.4em;
+}
+
+.edit-contact-container button {
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 0.6em 2em;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #85B87D;
+	border: none;
+	color: #ffffff;
+}
+
+.edit-contact-container button:hover {
+	background-color: #648C5D;
+}
+
+.edit-dial-phone {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.edit-dial-phone select {
+	width: 25%;
+	padding: 0.4em;
+	text-align: center;
+}
+
+.edit-dial-phone input {
+	margin-bottom: 0;
+	width: 65%;
+}
+
+.contact-details-container {
+	list-style: none;
+}
+
+.contact-details-container li {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-details-container li span:first-child {
+	width: 30%;
+	padding: 0.2em 2em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #70566D;
+    text-align: center;
+    border-style: solid;
+}
+
+.contact-details-container li span:last-child {
+	text-align: center;
+	width: 70%;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: #85B87D;
+	border: solid;
+	color: #ffffff;
+	padding: 0.3em;
+}
+
+.pages-container {
+	padding: 0 10em;
+	list-style: none;
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.pages-container button {
+	font-size: 1.5em;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+}
+
+.pages-container button:hover {
+	color: #70566D;
+}
+
+@media only screen and (max-width: 900px) {
+	.Contacts {
+		font-size: 0.9em;
+	}
+
+	.contact-main-info span {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.reset-search {
+		font-size: 0.9em;
+	}
+
+	.contacts-container {
+		padding: 0 1em;
+	}
+
+	.contact-container {
+		margin-bottom: 0.7em;
+	}
+
+	.contact-buttons-container {
+		width: 60%;
+	}
+
+	.contact-main-info span {
+		width: 40%;
+	}
+
+	.contact-buttons-container button {
+		margin-right: 0;
+		width: 30%;
+	}
+
+	.edit-contact-container {
+		width: 85%;
+	}
+
+	.edit-contact-form-container button {
+		width: initial;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.contact-buttons-container button {
+		width: 33.333333%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.reset-search {
+		font-size: 0.8em;
+	}
+
+	.serach-bar-container {
+		font-size: 0.85em;
+		padding: 1em 0;
+	}
+
+	.log-out {
+		font-size: 0.8em;
+		width: 15%;
+	}
+
+	.contacts-container {
+		font-size: 0.8em;
+	}
+
+	.contact-main-info {
+		flex-direction: column;
+	}
+
+	.contact-header-add-contact-button-container {
+		font-size: 0.7em;
+	}
+
+	.contact-header {
+		font-size: 1.3em;
+	}
+
+	.contact-main-info span, .contact-buttons-container {
+		width: 100%;
+	}
+
+	.serach-bar-container input, .serach-bar-container button, .log-out, .contact-header-add-contact-button-container, .contact-header, .add-contact-button, .contact-main-info span, .contact-buttons-container button, .contact-details-container li span:first-child, .contact-details-container li span:last-child {
+		border-width: thin;
+	}
+
+	.contact-buttons-container {
+		text-align: center;
+	}
+
+	.contact-buttons-container .yes-button, .contact-buttons-container .no-button {
+		width: 16.5%;
+	}
+
+	.add-contact-button {
+		padding: 0.6em 0.8em;
+	}
+
+	#edit-dial-code {
+		font-size: 0.9em;
+	}
+
+	.pages-container {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.contacts-container {
+		padding: 0;
+	}
+
+	.log-out {
+		font-size: 0.8em;
+	}
+
+	.contact-header {
+		padding: 0.5em 2em;
+	}
+
+	.serach-bar-container input {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 250px) {
+	.serach-bar-container button {
+		width: 15%;
+	}
+
+	.add-contact-button {
+		padding: 0.6em 0.5em;
+	}
+
+	.contact-header {
+		padding: 0.6em 1em;
+	}
+}

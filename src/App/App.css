@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.lang-container {
+  position: absolute;
+  top: 1.6em;
+}
+
+.lang-container button {
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  border: solid;
+  border-width: thin;
+  color: #ffffff;
+}
+
+.lang-container button:hover {
+  color: limegreen;
+}
+
+@media only screen and (max-width: 900px) {
+  .lang-container button {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .lang-container {
+    top: 0.7em;
+  }
+
+  .App {
+      text-align: right;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+    top: 0.4em;
+  }
+}

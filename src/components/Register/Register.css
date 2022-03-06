@@ -1,0 +1,97 @@
+.Register {
+	background-color: #9EE493;
+	padding: 7em;
+}
+
+.register-alert {
+	font-size: 1em;
+	color: #FF0000;
+}
+
+.register-form-header {
+	color: #ffffff;
+}
+
+.register-container {
+	background-color: #70566D;
+	padding: 6em;
+	border-radius: 10px;
+}
+
+.register-form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.register-form-container input {
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	padding: 0.4em 0.4em;
+}
+
+.register-form-container button {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 0.6em 2em;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #85B87D;
+	border: none;
+	color: #ffffff;
+}
+
+.register-form-container button:hover {
+	background-color: #648C5D;
+}
+
+.back-login-page-button {
+	font-size: 1.1em;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 3em;
+}
+
+.back-login-page-button:hover {
+	color: #9EE493;
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+	.Register {
+		font-size: 0.8em;
+		padding: 0 6em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.register-container {
+		padding: 3em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.Register {
+		font-size: 0.7em;
+		padding: 0;
+	}
+
+	.register-container {
+		border-radius: initial;
+	}
+
+	.back-login-page-button {
+		margin-top: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.register-form-header {
+		font-size: 1.6em;
+	}
+
+	.register-form-container button {
+		font-size: 1em;
+	}
+}

@@ -1,0 +1,65 @@
+.Logged {
+	background-color: #9EE493;
+	padding-bottom: 2em;
+}
+
+.header-container {
+	display: flex;
+}
+
+.log-out {
+	width: 10%;
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+	background-color: #70566D;
+	border-style: none;
+	border-left-style: solid;
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+.log-out:hover {
+	background-color: #4B2B4E;
+}
+
+.contact-header-add-contact-button-container {
+	display: flex;
+	justify-content: space-between;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: #ffffff;
+}
+
+.contact-header {
+	color: #ffffff;
+	background-color: #4B2B4E;
+	margin: 0;
+	padding: 0.6em 20%;
+	border-right: solid;
+}
+
+.add-contact-button {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 0.6em 2em;
+	cursor: pointer;
+	background-color: #85B87D;
+	border: none;
+	color: #ffffff;
+	border-left: solid;
+}
+
+.add-contact-button:hover {
+	background-color: #648C5D;
+}
+
+@media only screen and (max-width: 900px) {
+	.header-container {
+		font-size: 0.9em;
+	}
+
+	.contact-header-add-contact-button-container {
+		font-size: 0.8em;
+	}
+}

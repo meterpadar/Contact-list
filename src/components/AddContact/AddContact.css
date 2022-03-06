@@ -1,0 +1,86 @@
+.add-contact-alert {
+	font-size: 1.1em;
+	color: #FF0000;
+	margin-bottom: 0;
+}
+
+.add-contact-form-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.add-contact-form-container input {
+	margin: 0 auto;
+	margin-bottom: 1em;
+	width: 50%;
+	font-size: 1.1em;
+	padding: 0.4em 0.4em;
+}
+
+.add-contact-form-container button {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.add-contact-form-container button {
+	font-size: 1em;
+	font-weight: 600;
+	padding: 0.6em 2em;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #85B87D;
+	border: none;
+	color: #ffffff;
+}
+
+.add-contact-form-container button:hover {
+	background-color: #648C5D;
+}
+
+.dial-phone {
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	font-size: 1.1em;
+	padding: 0;
+	width: 52%;
+}
+
+#dial-code {
+	text-align: center;
+	width: 25%;
+	padding: 0.4em;
+	font-size: 0.7em;
+	margin-right: 1em;
+}
+
+#phone-number {
+	width: 75%;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.AddContact {
+		font-size: 0.8em;
+	}
+
+	.add-contact-form-container input {
+		width: 80%;
+	}
+
+	.add-contact-form-container button {
+		width: initial;
+	}
+
+	.dial-phone {
+		width: 82%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.dial-phone {
+		width: 83%;
+	}
+}
